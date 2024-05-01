@@ -6,11 +6,40 @@ DIR=/usr/bin
 finish(){
     clear
     echo ""
-    echo "DOWNLOAD GENPRO PACKAGE MANAGER DONE"
+    echo "DOWNLOAD GENPRO DONE"
     echo ""
-    echo "this tools for Openclash only. generate many proxy and SNI with one click"
+    echo "This tools for Openclash only. Generate many proxy and SNI with one click"
     echo ""
     echo ""
+    echo "
+MENJALANKAN PERINTAH SETELAH BERHASIL.
+Open genpro with link this 192.168.1.1/genpro.
+how to use
+
+A. STEP 1
+
+Create group provider and proxy provider in openclash (for example: name bug test)
+apply.
+B. STEP 2
+
+go to servers
+insert server you have.
+inser bugs you have.
+go home and select server
+insert port
+click bug name
+select file .yaml from openclash proxy provider
+click ke-OC
+go to Yard and refresh
+done... you have many bugs testing
+Good luck trying!
+
+Use it wisely.
+Sponsoring
+Support this project by becoming a sponsor or a backer.
+
+It's not there yet, so let's help with donations to boost their motivation for updates.
+"
 }
 
 download_files()
