@@ -20,6 +20,7 @@ A. STEP 1
 
 Create group provider and proxy provider in openclash (for example: name bug test)
 apply.
+You can skip if have proxy
 B. STEP 2
 
 go to servers
