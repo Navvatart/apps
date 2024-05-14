@@ -47,14 +47,18 @@ download_files()
 {
     clear
     echo "Please Wait"
-    sleep 5
+    sleep 3
     echo "Internet connection must ready"
-    sleep 5
+    sleep 3
     echo "Downloading In Progress..... Please Wait"
     if [ -d "/www/genpro" ]
     then
-         cd www/ && rm -r genpro && wget https://github.com/Navvatart/genpro/archive/refs/tags/Beta-v01.05.01.2024.zip && unzip Beta-v01.05.01.2024.zip && rm Beta-v01.05.01.2024.zip && mv genpro-Beta-v01.05.01.2024 genpro && cd -
+    	echo "Proccess Update...."
+    	sleep 3
+        cd www/ && rm -r genpro && wget https://github.com/Navvatart/genpro/archive/refs/tags/Beta-v01.05.01.2024.zip && unzip Beta-v01.05.01.2024.zip && rm Beta-v01.05.01.2024.zip && mv genpro-Beta-v01.05.01.2024 genpro && cd -
     else
+    	echo "Proccess Install...."
+    	sleep 3
          cd www/ && wget https://github.com/Navvatart/genpro/archive/refs/tags/Beta-v01.05.01.2024.zip && unzip Beta-v01.05.01.2024.zip && rm Beta-v01.05.01.2024.zip && mv genpro-Beta-v01.05.01.2024 genpro && cd -
     fi
    
