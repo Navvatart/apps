@@ -55,7 +55,7 @@ download_files()
     then
     echo "kosong";
     sleep 5
-	cd www/ && wget https://github.com/Navvatart/genpro/archive/refs/tags/Beta-v01.05.01.2024.zip && unzip Beta-v01.05.01.2024.zip && rm Beta-v01.05.01.2024.zip && mv genpro-Beta-v01.05.01.2024 genpro && cd -
+	#cd www/ && wget https://github.com/Navvatart/genpro/archive/refs/tags/Beta-v01.05.01.2024.zip && unzip Beta-v01.05.01.2024.zip && rm Beta-v01.05.01.2024.zip && mv genpro-Beta-v01.05.01.2024 genpro && cd -
     else
     echo "ada";
     sleep 5
