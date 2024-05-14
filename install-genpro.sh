@@ -55,11 +55,11 @@ download_files()
     then
     	echo "Proccess Update...."
     	sleep 3
-        cd www/ && rm -r genpro && wget https://github.com/Navvatart/genpro/archive/refs/tags/Beta-v02.05.14.2024.zip && unzip Beta-v02.05.14.2024.zip && rm Beta-v02.05.14.2024.zip && mv genpro-Beta-v02.05.14.2024 genpro && cd -
+        cd www/ && rm -r genpro && wget https://github.com/Navvatart/genpro/archive/refs/tags/Beta-v02.01.05.14.2024.zip && unzip Beta-v02.01.05.14.2024.zip && rm Beta-v02.01.05.14.2024.zip && mv genpro-Beta-v02.01.05.14.2024 genpro && cd -
     else
     	echo "Proccess Install...."
     	sleep 3
-         cd www/ && wget https://github.com/Navvatart/genpro/archive/refs/tags/Beta-v02.05.14.2024.zip && unzip Beta-v02.05.14.2024.zip && rm Beta-v02.05.14.2024.zip && mv genpro-Beta-v02.05.14.2024 genpro && cd -
+         cd www/ && wget https://github.com/Navvatart/genpro/archive/refs/tags/Beta-v02.01.05.14.2024.zip && unzip Beta-v02.01.05.14.2024.zip && rm Beta-v02.01.05.14.2024.zip && mv genpro-Beta-v02.01.05.14.2024 genpro && cd -
     fi
    
 	#
