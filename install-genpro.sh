@@ -51,7 +51,7 @@ download_files()
     echo "Internet connection must ready"
     sleep 5
     echo "Downloading In Progress..... Please Wait"
-    if [ ! -d "/www/gednpro" ]
+    if [ -d "www/genpro" ]
     then
     echo "kosong";
     sleep 5
